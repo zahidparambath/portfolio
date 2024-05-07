@@ -167,16 +167,47 @@
   justify-content: space-between;
 }
 
-.skill-list-left{
+.skill-list-section{
   display: flex;
   flex-direction: column;
   width: 50vw;
+  align-items: center;
+} 
+
+.skill-text{
+  display: flex;
+  justify-content: space-between;
 }
 
-.skill-list-right{
-  flex-direction: column;
-  display: flex;
-  width: 50vw;
+.progress-container{
+  height: 5px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.progress-bar{
+  background-color: #d1a5ff;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-85{
+  width: 85%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+.w-95{
+  width: 95%;
+}
+
+.my-20{
+  margin: 20px 0;
 }
 
 
@@ -216,6 +247,3 @@ i{
 i:hover{
   transform: rotate(45deg);
 }
-
-
-  
