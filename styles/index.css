@@ -100,12 +100,12 @@ body {
   align-items: center;
 }
 
-img {
+.image >img{
   border-radius: 50%;
   transition: transform 0.3s;
 }
 
-img:hover {
+.image >img:hover {
   transform: scale(1.1);
 }
 
@@ -228,7 +228,17 @@ img:hover {
 
 .project-section-list {
   text-align: center;
-  width: 40vw;
+  width: 30%;
+  background-color: #333;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.project-section-list >img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 /* contact styling */
