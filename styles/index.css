@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: linear-gradient(to right, #192734, #3F0E40);
+    color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    /* width: 100%; */
+  }
+  
+  /* Navbar styles */
+  #navbar {
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 70px;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .nav-name {
+    font-weight: bold;
+    font-size: 45px;
+  }
+  
+  .nav-list ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px; 
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  }
+  .nav-list a:hover{
+    color:  #d1a5ff; 
+    text-decoration: underline; 
+  }
+  
+  /* Home container styles */
+  .home {
+    margin-top: 100px; 
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  /* Description container styles */
+  .description-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+
+  .home-about{
+    width: 22vw;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Image styles */
+  /* Home name styles */
+  .home-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .name{
+    transition: transform 0.3s;
+  }
+
+  .name:hover{
+    transform: scale(1.3);
+  }
+  .home-about {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .image{
+    width: 50vw;
+    align-items: center;
+  }
+  img{
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+
+  img:hover{
+    transform: scale(1.1);
+  }
+
+  /* education section starts here */
+.section-heading{
+    font-size: 30px;
+    font-weight: bold;
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20px;
+    transition: transform 0.3s;
+}
+.section-heading:hover{
+  transform: scale(1.3);
+  color: #d1a5ff; 
+}
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .education-list{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .grade{
+    margin-bottom: 15px;
+    font-weight:400;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+  }
+
+  .year{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+
+  .grade:hover,
+.year:hover {
+  color: #d1a5ff; 
+}
+
+/* skills styling */
+
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-list-left{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.skill-list-right{
+  flex-direction: column;
+  display: flex;
+  width: 50vw;
+}
+
+
+
+/* project styling */
+
+.projects{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list{
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-list div a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+i{
+  transition: transform 0.3s;
+}
+
+i:hover{
+  transform: rotate(45deg);
+}
+
+
+  
